@@ -3,7 +3,7 @@
 class Question {
 
 
-  static all(){
+  static All(){
     return _ALL
   }
 
