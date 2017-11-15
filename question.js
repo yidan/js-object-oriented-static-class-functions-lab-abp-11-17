@@ -4,7 +4,7 @@ class Question {
 
 
   static All(){
-    return _All
+    return this._All
   }
 
   
