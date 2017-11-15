@@ -8,6 +8,6 @@ class Question{
   }
 
   save(){
-    
+   _ALL.push(this)
   }
 }
