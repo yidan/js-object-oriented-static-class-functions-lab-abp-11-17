@@ -10,4 +10,9 @@ class Question{
   save(){
    _ALL.push(this)
   }
+
+  constructor(content){
+    this.content = content;
+    save()
+  }
 }
