@@ -15,4 +15,8 @@ class Question{
     this.content = content;
     save()
   }
+
+  static find(id){
+    return _ALL[id-1]
+  }
 }
