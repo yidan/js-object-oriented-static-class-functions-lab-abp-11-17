@@ -11,14 +11,7 @@ class Question {
    Question._All.push(this)
   }
 
-  constructor(content){
-    this.content = content;
-    save()
-  }
-
-  static Find(id){
-    return Question._All[id-1]
-  }
+  
 
 
 
