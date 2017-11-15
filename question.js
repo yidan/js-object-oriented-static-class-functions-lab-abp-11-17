@@ -11,6 +11,11 @@ class Question {
    Question._All.push(this)
   }
 
+  constructor(content){
+    this.content = content;
+    save()
+  }
+
   
 
 
