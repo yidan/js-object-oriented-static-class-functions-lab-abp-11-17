@@ -19,4 +19,6 @@ class Question{
   static find(id){
     return _ALL[id-1]
   }
+
+  
 }
