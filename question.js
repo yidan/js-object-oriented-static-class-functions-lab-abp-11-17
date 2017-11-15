@@ -4,7 +4,7 @@ class Question {
 
 
   static All(){
-    return _ALL
+    return _ALL;
   }
 
   save(){
