@@ -8,7 +8,7 @@ class Question {
   }
 
   save(){
-   this._All.push(this)
+   Question._All.push(this)
   }
 
   constructor(content){
