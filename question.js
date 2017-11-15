@@ -1,6 +1,6 @@
 'use strict';
 
-class Question{
+class Question {
   let _ALL = []
 
   static all(){
