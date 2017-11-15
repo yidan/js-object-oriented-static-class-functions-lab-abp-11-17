@@ -1,7 +1,7 @@
 'use strict';
 
 class Question {
-  let _ALL = []
+
 
   static all(){
     return _ALL
@@ -20,5 +20,5 @@ class Question {
     return _ALL[id-1]
   }
 
-  
+
 }
