@@ -16,7 +16,7 @@ class Question {
     save()
   }
 
-  static find(id){
+  static Find(id){
     return _ALL[id-1]
   }
 
