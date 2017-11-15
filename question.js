@@ -13,10 +13,12 @@ class Question {
 
   constructor(content){
     this.content = content;
-    save()
+    this.save()
   }
 
-  
+  static Find(id){
+    return Question._All[id-1]
+  }
 
 
 
